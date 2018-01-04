@@ -1,0 +1,23 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+ xmlns:form="sap.ui.layout.form"  xmlns:c="custom_tile.control"  xmlns:l="sap.ui.layout"
+		controllerName="custom_tile.main" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel
+          class="sapUiResponsiveMargin"
+          headerText="Custom Tile"
+          width="auto"
+          expanded="true">
+          <content>
+               <!-- custom Tile comes here-->
+               <c:Tile width="180px" height="175px">
+                    <c:content>
+                         <l:VerticalLayout>
+                              <Link text="Tile" class="sapMLnk sapMLnkEmphasized sapMLnkMaxWidth"/>
+                              <l:HorizontalLayout class="sapUiTinyMarginTopBottom">
+                                   <Text text="Here's your custom tile" textAlign="Begin"/>
+                              </l:HorizontalLayout>
+                         </l:VerticalLayout>
+                    </c:content>
+               </c:Tile>
+          </content>
+     </Panel>
+</core:View>

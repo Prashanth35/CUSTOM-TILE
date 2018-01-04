@@ -1,0 +1,5 @@
+.tileLayout {
+  border: solid 1px;
+  box-sizing: border-box;
+  display: inline-block;
+}
